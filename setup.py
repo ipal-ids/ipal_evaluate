@@ -24,7 +24,7 @@ setup(
         "zlib-ng",
     ],
     tests_require=["pre-commit", "black", "flake8", "pytest", "pytest-cov", "isort"],
-    url="https://github.com/fkie-cad/ipal_evaluate",
+    url="https://github.com/ipal-ids/ipal_evaluate",
     author="Konrad Wolsing",
     author_email="wolsing@comsys.rwth-aachen.de",
     long_description="Industrial systems are increasingly threatened by cyberattacks with potentially disastrous consequences. To counter such attacks, industrial intrusion detection systems strive to timely uncover even the most sophisticated breaches. Due to its criticality for society, this fast-growing field attracts researchers from diverse backgrounds, resulting in a huge momentum and diversity of contributions. Consequently, due to a lack of standard interfaces there exists not standard tools for evaluating IDSs. Based on IPAL - a common message format that decouples IIDSs from domain-specific communication protocols, we developed an  tool for scientific evaluation that combines different performance metrics into a single solution.",

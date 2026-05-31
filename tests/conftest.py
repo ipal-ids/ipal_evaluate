@@ -24,7 +24,7 @@ def check_is_transcriber_installed():
 
     except FileNotFoundError:
         pytest.skip(
-            "IPAL Transcriber is not installed. Follow instructions on https://github.com/fkie-cad/ipal_transcriber."
+            "IPAL Transcriber is not installed. Follow instructions on https://github.com/ipal-ids/ipal_transcriber."
         )
 
 
@@ -34,7 +34,7 @@ def check_is_ipal_ids_installed():
 
     except FileNotFoundError:
         pytest.skip(
-            "IPAL IDS Framework is not installed. Follow instructions on https://github.com/fkie-cad/ipal_ids_framework."
+            "IPAL IDS Framework is not installed. Follow instructions on https://github.com/ipal-ids/ipal_ids_framework."
         )
 
 

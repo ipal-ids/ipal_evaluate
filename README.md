@@ -2,7 +2,7 @@
 
 <img src="./misc/Logo.png" alt="Logo" width="100" height="auto" align="right">
 
-This repository is part of [IPAL](https://github.com/fkie-cad/ipal)  - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/fkie-cad/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/fkie-cad/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/fkie-cad/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
+This repository is part of [IPAL](https://github.com/ipal-ids/ipal)  - an Industrial Protocol Abstraction Layer. IPAL aims to establish an abstract representation of industrial network traffic for subsequent unified and protocol-independent industrial intrusion detection. IPAL consists of a [transcriber](https://github.com/ipal-ids/ipal_transcriber) to automatically translate industrial traffic into the IPAL representation, an [IDS Framework](https://github.com/ipal-ids/ipal_ids_framework) implementing various industrial intrusion detection systems (IIDSs), and a collection of evaluation [datasets](https://github.com/ipal-ids/ipal_datasets). For details about IPAL, please refer to our publications listed down below.
 
 Industrial systems are increasingly threatened by cyberattacks with potentially disastrous consequences. To counter such attacks, industrial intrusion detection systems strive to uncover even the most sophisticated breaches in a timely manner. Due to its criticality for society, this fast-growing field attracts researchers from diverse backgrounds, resulting in huge momentum and diversity of contributions. Consequently, due to a lack of standard interfaces, standard tools for evaluating IDSs do not exist. Based on IPAL - a common message format that decouples IIDSs from domain-specific communication protocols, the `ipa-evalute` tool serves to address this problem by combining a variety of commonly used performance metrics into a single solution for scientific evaluation.
 
@@ -57,7 +57,7 @@ The evaluation framework contains implementations of the following metrics. Note
 
 ## Getting started
 
-If you are new to IPAL and want to learn about the general idea or try out our tutorials, please refer to IPAL's main repository: [https://github.com/fkie-cad/ipal](https://github.com/fkie-cad/ipal).
+If you are new to IPAL and want to learn about the general idea or try out our tutorials, please refer to IPAL's main repository: [https://github.com/ipal-ids/ipal](https://github.com/ipal-ids/ipal).
 
 ###### Prerequisites
 
